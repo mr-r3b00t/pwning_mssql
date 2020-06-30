@@ -1,6 +1,11 @@
 # pwning_mssql
 
-#resources
+#tools
+#if you have a windows box u can use the SQL Management Studio (no really it's a good idea to take a look at this!)
+# take a look at the msf modules, nmap sql modules
+# also look at the sqlclient in impacket: mssqlclient.py -db db_sharepoint sa@192.168.1.10
+
+#resources (this chap has made just an awesome collection of pwnage intel)
 https://book.hacktricks.xyz/pentesting/pentesting-mssql-microsoft-sql-server
 https://book.hacktricks.xyz/windows/active-directory-methodology/mssql-trusted-links
 
